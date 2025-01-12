@@ -1371,6 +1371,8 @@ let
 
     ocamline = callPackage ../development/ocaml-modules/ocamline { };
 
+    ocamlmerlin-mlx = callPackage ../development/ocaml-modules/mlx/ocamlmerlin-mlx.nix { };
+
     ocamlmod = callPackage ../development/tools/ocaml/ocamlmod { };
 
     ocamlnet = callPackage ../development/ocaml-modules/ocamlnet { };
@@ -1816,6 +1818,8 @@ let
     syslog = callPackage ../development/ocaml-modules/syslog { };
 
     syslog-message = callPackage ../development/ocaml-modules/syslog-message { };
+
+    systemd = callPackage ../development/ocaml-modules/systemd { };
 
     ### T ###
 
